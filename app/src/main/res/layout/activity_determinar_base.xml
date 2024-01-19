@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.Determinar_base"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/button_determinarbase"
+        android:textColor="#546E7A"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textViewinf1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso 1 - Ingrese los datos solicitados"
+        android:textColor="#546E7A"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textViewinf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paso 2 - Dar clic en el botón empezar"
+        android:textColor="#546E7A"
+        android:textSize="15sp"
+        tools:ignore="TextContrastCheck"
+        android:gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewtam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview_componentes"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/edittext_numero_componentes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="@string/edittext_numerodecomponentes"
+                    android:inputType="number"
+                    android:maxWidth="70px"
+                    android:maxLength="1"
+                    android:textColorHint="#78909C"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textview_valido_vector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Ingresar Datos"
+                    android:textColor="#11089C"
+                    tools:ignore="TextContrastCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/textview_tamano"
+                    tools:ignore="TextContrastCheck" />
+
+                <EditText
+                    android:id="@+id/editText_tamano_vectores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:hint="@string/edittext_tamanovectores"
+                    android:inputType="number"
+                    android:maxWidth="100px"
+                    android:maxLength="1"
+                    android:textColorHint="#78909C"
+                    tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/button_numero_vectores"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_select_num_vec" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/v_row_v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_v1"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo3"
+                tools:srcCompat="@drawable/corchete_inicial" />
+
+            <EditText
+                android:id="@+id/editText_v1_dato1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v1_dato2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck"  />
+
+            <EditText
+                android:id="@+id/editText_v1_dato3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v1_dato4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo2"
+                tools:srcCompat="@drawable/corchete_final" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v_row_v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_v2"
+            android:textColor="#546E7A"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo1"
+                tools:srcCompat="@drawable/corchete_inicial" />
+
+            <EditText
+                android:id="@+id/editText_v2_dato1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextT_v2_dato2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v2_dato3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v2_dato4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo5"
+                tools:srcCompat="@drawable/corchete_final" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v_row_v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_v3"
+            android:textColor="#546E7A"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo6"
+                tools:srcCompat="@drawable/corchete_inicial" />
+
+            <EditText
+                android:id="@+id/editText_v3_dato1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v3_dato2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v3_dato3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v3_dato4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo4"
+                tools:srcCompat="@drawable/corchete_final" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/v_row_v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview_v4"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:srcCompat="@drawable/corchete_inicial" />
+
+            <EditText
+                android:id="@+id/editText_v4_dato1"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v4_dato2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v4_dato3"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editText_v4_dato4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/edittext_ayuda"
+                android:inputType="number|phone"
+                android:minHeight="35dp"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo7"
+                tools:srcCompat="@drawable/corchete_final" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+        <Button
+            android:id="@+id/button_resultadoOrtonormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_resultado" />
+
+    <Button
+        android:id="@+id/button_limpiarOrtonormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpiar" />
+</LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20sp"
+                    tools:ignore="TextContrastCheck" />
+
+                   <com.agog.mathdisplay.MTMathView
+                    android:id="@+id/mathviewFormula1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/textView9" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button_procedimientoOrtonormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_procedimiento" />
+
+</LinearLayout>

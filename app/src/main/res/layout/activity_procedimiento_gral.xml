@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:scrollbarStyle="outsideOverlay"
+    tools:context="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.Procedimiento">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--Paso 1 -->
+                <LinearLayout
+                    android:layout_width="500px"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button_menos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alejar (-)" />
+
+                    <Button
+                        android:id="@+id/button_mas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Acercar (+)" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tpass1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 2 -->
+                <TextView
+                    android:id="@+id/tpass2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 3 -->
+                <TextView
+                    android:id="@+id/tpass3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 4 -->
+                <TextView
+                    android:id="@+id/tpass4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 5 -->
+                <TextView
+                    android:id="@+id/tpass5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 6 -->
+                <TextView
+                    android:id="@+id/tpass6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 7 -->
+                <TextView
+                    android:id="@+id/tpass7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 8 -->
+                <TextView
+                    android:id="@+id/tpass8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 9 -->
+                <TextView
+                    android:id="@+id/tpass9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 10 -->
+                <TextView
+                    android:id="@+id/tpass10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 11 -->
+                <TextView
+                    android:id="@+id/tpass11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 12 -->
+                <TextView
+                    android:id="@+id/tpass12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 13 -->
+                <TextView
+                    android:id="@+id/tpass13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 14 -->
+                <TextView
+                    android:id="@+id/tpass14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 15 -->
+                <TextView
+                    android:id="@+id/tpass15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 16 -->
+                <TextView
+                    android:id="@+id/tpass16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 17 -->
+                <TextView
+                    android:id="@+id/tpass17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 18 -->
+                <TextView
+                    android:id="@+id/tpass18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 19 -->
+                <TextView
+                    android:id="@+id/tpass19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 20 -->
+                <TextView
+                    android:id="@+id/tpass20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 21 -->
+                <TextView
+                    android:id="@+id/tpass21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 22 -->
+                <TextView
+                    android:id="@+id/tpass22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 23 -->
+                <TextView
+                    android:id="@+id/tpass23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 24 -->
+                <TextView
+                    android:id="@+id/tpass24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 25 -->
+                <TextView
+                    android:id="@+id/tpass25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 26 -->
+                <TextView
+                    android:id="@+id/tpass26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 27 -->
+                <TextView
+                    android:id="@+id/tpass27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 28 -->
+                <TextView
+                    android:id="@+id/tpass28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 29 -->
+                <TextView
+                    android:id="@+id/tpass29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 30 -->
+                <TextView
+                    android:id="@+id/tpass30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 31 -->
+                <TextView
+                    android:id="@+id/tpass31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 32 -->
+                <TextView
+                    android:id="@+id/tpass32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 33 -->
+                <TextView
+                    android:id="@+id/tpass33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 34 -->
+                <TextView
+                    android:id="@+id/tpass34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 35 -->
+                <TextView
+                    android:id="@+id/tpass35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <!--Paso 36 -->
+                <TextView
+                    android:id="@+id/tpass36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 37 -->
+                <TextView
+                    android:id="@+id/tpass37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 38 -->
+                <TextView
+                    android:id="@+id/tpass38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 39 -->
+                <TextView
+                    android:id="@+id/tpass39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 40 -->
+                <TextView
+                    android:id="@+id/tpass40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 41 -->
+                <TextView
+                    android:id="@+id/tpass41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 42 -->
+                <TextView
+                    android:id="@+id/tpass42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 43 -->
+                <TextView
+                    android:id="@+id/tpass43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 44 -->
+                <TextView
+                    android:id="@+id/tpass44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 45 -->
+                <TextView
+                    android:id="@+id/tpass45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 46 -->
+                <TextView
+                    android:id="@+id/tpass46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 47 -->
+                <TextView
+                    android:id="@+id/tpass47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 48 -->
+                <TextView
+                    android:id="@+id/tpass48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 49 -->
+                <TextView
+                    android:id="@+id/tpass49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 50 -->
+                <TextView
+                    android:id="@+id/tpass50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 51 -->
+                <TextView
+                    android:id="@+id/tpass51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 52-->
+                <TextView
+                    android:id="@+id/tpass52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 53 -->
+                <TextView
+                    android:id="@+id/tpass53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 54 -->
+                <TextView
+                    android:id="@+id/tpass54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 55 -->
+                <TextView
+                    android:id="@+id/tpass55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 56 -->
+                <TextView
+                    android:id="@+id/tpass56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 57 -->
+                <TextView
+                    android:id="@+id/tpass57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 58 -->
+                <TextView
+                    android:id="@+id/tpass58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 59 -->
+                <TextView
+                    android:id="@+id/tpass59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 60 -->
+                <TextView
+                    android:id="@+id/tpass60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 61 -->
+                <TextView
+                    android:id="@+id/tpass61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <!--Paso 62 -->
+                <TextView
+                    android:id="@+id/tpass62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 63 -->
+                <TextView
+                    android:id="@+id/tpass63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 64 -->
+                <TextView
+                    android:id="@+id/tpass64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 65 -->
+                <TextView
+                    android:id="@+id/tpass65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 66 -->
+                <TextView
+                    android:id="@+id/tpass66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 67 -->
+                <TextView
+                    android:id="@+id/tpass67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 68 -->
+                <TextView
+                    android:id="@+id/tpass68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 69 -->
+                <TextView
+                    android:id="@+id/tpass69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 70 -->
+                <TextView
+                    android:id="@+id/tpass70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 71 -->
+                <TextView
+                    android:id="@+id/tpass71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 72 -->
+                <TextView
+                    android:id="@+id/tpass72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 73 -->
+                <TextView
+                    android:id="@+id/tpass73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 74 -->
+                <TextView
+                    android:id="@+id/tpass74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 75 -->
+                <TextView
+                    android:id="@+id/tpass75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <!--Paso 76 -->
+                <TextView
+                    android:id="@+id/tpass76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 77 -->
+                <TextView
+                    android:id="@+id/tpass77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 78-->
+                <TextView
+                    android:id="@+id/tpass78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 79 -->
+                <TextView
+                    android:id="@+id/tpass79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 80 -->
+                <TextView
+                    android:id="@+id/tpass80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 81 -->
+                <TextView
+                    android:id="@+id/tpass81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 82 -->
+                <TextView
+                    android:id="@+id/tpass82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 83 -->
+                <TextView
+                    android:id="@+id/tpass83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 84 -->
+                <TextView
+                    android:id="@+id/tpass84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 85 -->
+                <TextView
+                    android:id="@+id/tpass85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 86  -->
+                <TextView
+                    android:id="@+id/tpass86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 87 -->
+                <TextView
+                    android:id="@+id/tpass87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <!--Paso 88 -->
+                <TextView
+                    android:id="@+id/tpass88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass88"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 89 -->
+                <TextView
+                    android:id="@+id/tpass89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 90 -->
+                <TextView
+                    android:id="@+id/tpass90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 91 -->
+                <TextView
+                    android:id="@+id/tpass91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 92 -->
+                <TextView
+                    android:id="@+id/tpass92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 93 -->
+                <TextView
+                    android:id="@+id/tpass93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 94 -->
+                <TextView
+                    android:id="@+id/tpass94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 95 -->
+                <TextView
+                    android:id="@+id/tpass95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 96 -->
+                <TextView
+                    android:id="@+id/tpass96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 97 -->
+                <TextView
+                    android:id="@+id/tpass97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 98 -->
+                <TextView
+                    android:id="@+id/tpass98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 99 -->
+                <TextView
+                    android:id="@+id/tpass99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbarAlwaysDrawHorizontalTrack="true"
+                    android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+                <!--Paso 100 -->
+                <TextView
+                    android:id="@+id/tpass100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 101 -->
+                <TextView
+                    android:id="@+id/tpass101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 102 -->
+                <TextView
+                    android:id="@+id/tpass102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 103 -->
+                <TextView
+                    android:id="@+id/tpass103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 104 -->
+                <TextView
+                    android:id="@+id/tpass104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 105 -->
+                <TextView
+                    android:id="@+id/tpass105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 106 -->
+                <TextView
+                    android:id="@+id/tpass106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 107 -->
+                <TextView
+                    android:id="@+id/tpass107"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass107"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 108 -->
+                <TextView
+                    android:id="@+id/tpass108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass108"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 109 -->
+                <TextView
+                    android:id="@+id/tpass109"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass109"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 110 -->
+                <TextView
+                    android:id="@+id/tpass110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass110"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 111 -->
+                <TextView
+                    android:id="@+id/tpass111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 112 -->
+                <TextView
+                    android:id="@+id/tpass112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 113 -->
+                <TextView
+                    android:id="@+id/tpass113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 114 -->
+                <TextView
+                    android:id="@+id/tpass114"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass114"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 115 -->
+                <TextView
+                    android:id="@+id/tpass115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 116 -->
+                <TextView
+                    android:id="@+id/tpass116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 117 -->
+                <TextView
+                    android:id="@+id/tpass117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 118 -->
+                <TextView
+                    android:id="@+id/tpass118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 119 -->
+                <TextView
+                    android:id="@+id/tpass119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <!--Paso 120 -->
+                <TextView
+                    android:id="@+id/tpass120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                <com.agog.mathdisplay.MTMathView
+                    android:isScrollContainer="true"
+                    android:id="@+id/pass120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>
+
+
+
+

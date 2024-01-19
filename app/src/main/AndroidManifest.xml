@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name="com.chaquo.python.android.PyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.CambioBase"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.Procedimiento"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.BaseOrtonormal"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"
+        />
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.Determinar_base"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name="mx.Tecnm_chihuahua2.algebra_espacios_vectoriales.console.ActividadPrincipal"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
